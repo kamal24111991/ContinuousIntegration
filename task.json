@@ -1,0 +1,18 @@
+{
+"containerDefinitions": [
+    {
+     "name": "webserver",
+     "image": "842183492103.dkr.ecr.us-east-1.amazonaws.com/tomcat:latest",
+     "portMappings": [
+     {
+        "containerPort": 8080,
+        "hostPort": 8080
+     }
+     ],
+     "memory": 512,
+     "cpu": 200
+   }
+ ],
+ "family": "webserver"
+}
+
